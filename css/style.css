@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Open+Sans&family=Orbitron&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+    
+    
+}
+.main {
+    background-color: rgba(41, 38, 43, 0.116);
+    width: 650px;
+    margin: 150px auto;
+    height: 225px;
+    position: relative;
+    padding: 50px;
+}
+.clock-badge {
+    background-color: brown;
+    width: 250px;
+    font-size: 25px;
+    padding: 5px 10px;
+    position: absolute;
+    top: -20px;
+    left: 170px;
+    color: whitesmoke
+}
+.clock {
+    background-color: rgba(160, 159, 161, 0.116);
+    font-size: 85px;
+    text-align: center;
+    height: 100%;
+    font-family: Orbitron;
+    border-radius: 4%;
+    
+}
